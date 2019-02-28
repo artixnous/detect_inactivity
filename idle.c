@@ -1,5 +1,6 @@
 /* Core code taken from https://unix.stackexchange.com/a/128855 (Andreas Wiese)
-Made some modifications ("daemonize" with fork, command-line defined timeout period, etc)
+Made some modifications ("daemonize" with fork, command-line defined timeout period, etc).
+Needs root rights, obviously.
 */
 
 #include <stdio.h>
